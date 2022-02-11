@@ -1,0 +1,2 @@
+tableauserverclient==0.17.0
+flask==2.0.2
