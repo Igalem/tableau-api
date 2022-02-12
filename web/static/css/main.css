@@ -1,0 +1,29 @@
+body {
+    background-color: rgba(245, 245, 245, 0.658);
+    text-align: center; 
+}
+
+p {
+    color: darkblue;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    white-space: normal;
+}
+
+img {
+    border-radius: 8px;
+    width: 700px;
+}
+
+input {
+    background: white;    
+    border: none;
+    text-align: left;
+    font-size: 18px;
+}
+
+input:focus { 
+    border: solid 2px #40b0cc;
+    outline: none;
+}

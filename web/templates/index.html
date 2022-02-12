@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tableau Server API</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">
+    </head>
+    <body>
+        <img src="https://cdn.educba.com/academy/wp-content/uploads/2018/11/Tableau-Server-1.jpg">
+        <br>
+        <form action="search" method="post">
+            <br>
+            <input type="text" name="search_input">&nbsp
+            <input type="submit" value="Search" id="search">
+            &nbsp&nbsp&nbsp&nbsp
+            <input type="text" name="ds_id_input">&nbsp
+            <input type="submit" value="Download" id="download">
+            {% for message in get_flashed_messages()%}
+            <p> {{ message }} </p>
+            {% endfor %}
+        </form>
+    </body>
+
+
+</html>
