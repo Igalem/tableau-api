@@ -26,7 +26,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='test_ds3' name='cloudfile:googledrive-excel-direct.0zx0zzi04pw9xe1cew3e30hzh3gs'>
-            <connection authentication='oauth' class='cloudfile:googledrive-excel-direct' cleaning='no' cloudFileExtension='xlsx' cloudFileId='1mJoeuNgU2LVgizSxQQ5iH1URJVnzZVIaJWOAAOBEisQ' cloudFileMetadata_-_folder='root' cloudFileName='test_ds3.xlsx' cloudFileProvider='googledrive' cloudFileRequestURL='https://www.googleapis.com/drive/v3/files/1mJoeuNgU2LVgizSxQQ5iH1URJVnzZVIaJWOAAOBEisQ/export?mimeType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' compat='no' connection-type='googledrive' dataRefreshTime='' filename='test_ds.xlsx' interpretationMode='0' server='' server-oauth='server-custom' username='igal.emona@skai.io' validate='no' />
+            <connection authentication='oauth' class='cloudfile:googledrive-excel-direct' cleaning='no' cloudFileExtension='xlsx' cloudFileId='1YLpMaLzSlC03qRlNX3RTzfZUhj3j5-SUV9xgtZEtA0o' cloudFileMetadata_-_folder='root' cloudFileName='test_ds3.xlsx' cloudFileProvider='googledrive' cloudFileRequestURL='https://www.googleapis.com/drive/v3/files/1YLpMaLzSlC03qRlNX3RTzfZUhj3j5-SUV9xgtZEtA0o/export?mimeType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' compat='no' connection-type='googledrive' dataRefreshTime='' filename='test_ds3.xlsx' interpretationMode='0' server='' server-oauth='server-custom' username='igal.emona@skai.io' validate='no' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='cloudfile:googledrive-excel-direct.0zx0zzi04pw9xe1cew3e30hzh3gs' name='Sheet1' table='[Sheet1$]' type='table'>
