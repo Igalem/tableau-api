@@ -6,7 +6,7 @@ from api.tabcmd import tableau_api
 filepath='/Users/igale/Downloads'
 
 app=Flask(__name__)
-app.secret_key="SSKkwkk.sjjwsQQklmsAffdjjepuuGBSxxsw87"
+app.secret_key="xxxxxxxxx"
 ds_id=''
 
 @app.route("/")
@@ -16,7 +16,10 @@ def index():
 
 @app.route("/search", methods=["POST", "GET"])
 def search():
-    tabcmd=tableau_api()
+    print('x')
+    tabcmd=tableau_api(server='xxxxx', 
+                    user='xxxx', 
+                    token = 'xxxxxxx')
     datasources=tabcmd.datasource_list(str(request.form['search_input']))
     results=len(datasources)
     ds_id=str(request.form['ds_id_input'])
